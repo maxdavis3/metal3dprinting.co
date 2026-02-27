@@ -1,224 +1,519 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Metal3d Printing - Precision Metal Parts, Printed to Perfection. Professional services and solutions for 3d metal printing. Contact us today for a free consu...">
-    <meta name="keywords" content="3d metal printing, metal3dprinting, metal, printing, professional services, quality, innovation, max davis, ben stagl, ally reza, chilab, chilab studio, titobi, chicago, manufacturing, functional, 3d, prototype">
-    <meta property="og:title" content="Metal3d Printing | Precision Metal Parts, Printed to Perfection">
-    <meta property="og:description" content="Metal3d Printing - Precision Metal Parts, Printed to Perfection. Professional services and solutions for 3d metal printing. Contact us today for a free consu...">
-    <meta name="author" content="Max Davis, Ben Stagl, Ally Reza - ChiLab Studio">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=80">
-    <title>Metal3d Printing | Precision Metal Parts, Printed to Perfection</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metal 3D Printing | DMLS/SLM Manufacturing | Titanium, Steel, Aluminum, More</title>
+  <meta name="description" content="Industrial metal 3D printing: titanium (1055 MPa), steel 17-4 PH (1365 MPa), aluminum, cobalt chrome. DMLS/SLM technology, aerospace, medical, tooling.">
+  <link rel="stylesheet" href="shared-metal3d-styles.css">
+  <style>
+    :root {
+      --primary-color: #16A085;
+      --secondary-color: #138D75;
+      --accent-color: #76D7C4;
+    }
+
+    .navbar-brand {
+      color: var(--primary-color);
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    .navbar-nav a::after {
+      background-color: var(--primary-color);
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #0E6251 0%, #16A085 50%, #76D7C4 100%);
+    }
+
+    .card {
+      border-top-color: var(--primary-color);
+    }
+
+    .stat-number {
+      background: linear-gradient(135deg, #0E6251, #16A085);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .timeline::before {
+      background: linear-gradient(180deg, #0E6251, #16A085, #76D7C4);
+    }
+
+    .timeline-dot {
+      border-color: var(--primary-color);
+    }
+
+    .form-submit {
+      background: linear-gradient(135deg, #0E6251, #16A085);
+    }
+  </style>
 </head>
 <body>
-    <div class="grain-overlay"></div>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-brand">Metal3D Manufacturing</div>
+      <button class="navbar-toggle">☰</button>
+      <ul class="navbar-nav">
+        <li><a href="#materials">Materials</a></li>
+        <li><a href="#industries">Industries</a></li>
+        <li><a href="#comparison">vs Traditional</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="metal3dprint-contact.html" class="cta-button">Get Quote</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <header class="site-header">
-        <nav class="navbar">
-            <div class="nav-container">
-                <a href="index.html" class="nav-logo">
-                    <span class="logo-bracket">[</span><span class="logo-text">Metal3d Printing</span><span class="logo-bracket">]</span>
-                </a>
-                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-                    <span class="hamburger"></span>
-                    <span class="hamburger"></span>
-                    <span class="hamburger"></span>
-                </button>
-                <ul class="nav-menu">
-                    <li><a href="index.html" class="nav-link active">Home</a></li>
-                    <li><a href="about.html" class="nav-link">About</a></li>
-                    <li><a href="services.html" class="nav-link">Services</a></li>
-                    <li><a href="contact.html" class="nav-link">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-background"><img src="images/01-titanium-turbine.png" alt="Metal 3D Printing" loading="lazy"><div class="hero-overlay"></div></div><div class="hero-content">
+      <h1>Advanced Metal 3D Printing</h1>
+      <p>DMLS/SLM manufacturing: titanium, steel, aluminum, cobalt chrome, inconel. Aerospace, medical, tooling, industrial applications</p>
+      <div class="hero-cta">
+        <a href="#materials" class="btn btn-primary">Explore Materials</a>
+        <a href="metal3dprint-contact.html" class="btn btn-secondary">Request Capabilities</a>
+      </div>
+    </div>
+  </section>
 
-    <main>
-        <section class="hero">
-            <div class="hero-background">
-                <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=80" alt="Metal3d Printing" loading="lazy">
-                <div class="hero-overlay"></div>
-            </div>
-            <div class="hero-content">
-                <div class="hero-badge">PRECISION ENGINEERED</div>
-                <h1 class="hero-title">
-                    <span class="title-line">Metal3d</span>
-                        <span class="title-line highlight">Printing</span>
-                </h1>
-                <p class="hero-subtitle">Precision Metal Parts, Printed to Perfection. We deliver innovative solutions that drive results.</p>
-                <div class="hero-actions">
-                    <a href="services.html" class="btn btn-primary">Explore Services</a>
-                    <a href="contact.html" class="btn btn-secondary">Get a Quote</a>
-                </div>
-                <div class="hero-stats">
-                    <div class="stat-item">
-                        <div class="stat-number">99.7%</div>
-                        <div class="stat-label">Precision</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">50+</div>
-                        <div class="stat-label">Projects</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">24/7</div>
-                        <div class="stat-label">Support</div>
-                    </div>
-                </div>
-            </div>
-            <div class="scroll-indicator">
-                <div class="scroll-line"></div>
-                <span>SCROLL</span>
-            </div>
-        </section>
+  <!-- Overview Statistics -->
+  <section class="container" style="padding-top: 3rem; padding-bottom: 3rem; border-bottom: none;">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <div class="stat-number">$22.14B</div>
+        <div class="stat-label">2023 Market Size</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">26.8%</div>
+        <div class="stat-label">Annual Growth</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">82%</div>
+        <div class="stat-label">Report Cost Savings</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">99.5%</div>
+        <div class="stat-label">Density Achievement</div>
+      </div>
+    </div>
+  </section>
 
-        <section class="process-section">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-label">CAPABILITIES</span>
-                    <h2 class="section-title">Advanced Solutions</h2>
-                </div>
-                <div class="process-grid">
-                    <div class="process-card animate-in">
-                        <div class="card-number">01</div>
-                        <div class="card-image">
-                            <img src="https://images.unsplash.com/photo-1531431057391-da7a1aabd412?w=600&q=80" alt="Service 1" loading="lazy">
-                        </div>
-                        <h3>Service 1</h3>
-                        <p>Professional metal3d printing solutions tailored to your needs.</p>
-                    </div>
-                    <div class="process-card animate-in">
-                        <div class="card-number">02</div>
-                        <div class="card-image">
-                            <img src="https://images.unsplash.com/photo-1546455643-312811da2332?w=600&q=80" alt="Service 2" loading="lazy">
-                        </div>
-                        <h3>Service 2</h3>
-                        <p>Professional metal3d printing solutions tailored to your needs.</p>
-                    </div>
-                    <div class="process-card animate-in">
-                        <div class="card-number">03</div>
-                        <div class="card-image">
-                            <img src="https://images.unsplash.com/photo-1626885930974-4b69aa21bbf9?w=600&q=80" alt="Service 3" loading="lazy">
-                        </div>
-                        <h3>Service 3</h3>
-                        <p>Professional metal3d printing solutions tailored to your needs.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <!-- Materials -->
+  <section id="materials">
+    <div class="container">
+      <h2>Metal 3D Printing Materials Comparison</h2>
 
-        <section class="materials-section">
-            <div class="container-wide">
-                <div class="materials-content">
-                    <div class="materials-info">
-                        <span class="section-label">CAPABILITIES</span>
-                        <h2>What Sets Us Apart</h2>
-                        <p>We offer a comprehensive range of solutions designed for excellence.</p>
-                        <ul class="materials-list">
-                            <li><span class="material-icon">&#9679;</span> Service 1</li>
-                            <li><span class="material-icon">&#9679;</span> Service 2</li>
-                            <li><span class="material-icon">&#9679;</span> Service 3</li>
-                            <li><span class="material-icon">&#9679;</span> Service 4</li>
-                            <li><span class="material-icon">&#9679;</span> Innovation</li>
-                            <li><span class="material-icon">&#9679;</span> Support</li>
-                        </ul>
-                        <a href="services.html" class="btn btn-outline">View All Services</a>
-                    </div>
-                    <div class="materials-visual">
-                        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=80" alt="Metal3d Printing Services" loading="lazy">
-                        <div class="visual-accent"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <table class="specs-table">
+        <thead>
+          <tr>
+            <th>Material</th>
+            <th>Tensile Strength</th>
+            <th>Key Properties</th>
+            <th>Primary Applications</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Titanium Ti6Al4V</strong></td>
+            <td>993-1055 MPa</td>
+            <td>High strength-to-weight, biocompatible, heat resistant to 600°C</td>
+            <td>Aerospace, medical implants, defense</td>
+          </tr>
+          <tr>
+            <td><strong>Steel 17-4 PH</strong></td>
+            <td>1365-1372 MPa</td>
+            <td>High hardness (50-52 HRC), corrosion resistant, excellent for tooling</td>
+            <td>Injection molds, tooling, bearings, instruments</td>
+          </tr>
+          <tr>
+            <td><strong>Stainless Steel 316L</strong></td>
+            <td>565-586 MPa</td>
+            <td>Superior corrosion resistance, biocompatible, weldable</td>
+            <td>Chemical processing, medical devices, marine applications</td>
+          </tr>
+          <tr>
+            <td><strong>Cobalt Chrome</strong></td>
+            <td>1213-1255 MPa</td>
+            <td>Extreme hardness, excellent wear resistance, biocompatible</td>
+            <td>Dental, orthopedic implants, high-wear surfaces</td>
+          </tr>
+          <tr>
+            <td><strong>Inconel 718</strong></td>
+            <td>958-993 MPa</td>
+            <td>High-temperature capability, excellent fatigue resistance</td>
+            <td>Jet engines, turbines, extreme-environment components</td>
+          </tr>
+          <tr>
+            <td><strong>Aluminum AlSi10Mg</strong></td>
+            <td>268-345 MPa</td>
+            <td>Lightweight (2.68 g/cm³), excellent for weight reduction</td>
+            <td>Aerospace, automotive, lightweight structures</td>
+          </tr>
+          <tr>
+            <td><strong>Precious Metals</strong></td>
+            <td>Variable</td>
+            <td>Gold, silver, platinum alloys with full purity</td>
+            <td>Jewelry, luxury components, specialized applications</td>
+          </tr>
+        </tbody>
+      </table>
 
-        <section class="industries-section">
-            <div class="container">
-                <div class="section-header center">
-                    <span class="section-label">INDUSTRIES</span>
-                    <h2>Trusted Across Sectors</h2>
-                </div>
-                <div class="industries-grid">
-                    <div class="industry-card animate-in">
-                        <div class="industry-icon">&#9992;</div>
-                        <h3>Aerospace</h3>
-                        <p>Lightweight precision components</p>
-                    </div>
-                    <div class="industry-card animate-in">
-                        <div class="industry-icon">&#43;</div>
-                        <h3>Medical</h3>
-                        <p>Biocompatible solutions</p>
-                    </div>
-                    <div class="industry-card animate-in">
-                        <div class="industry-icon">&#9881;</div>
-                        <h3>Industrial</h3>
-                        <p>Custom tooling and parts</p>
-                    </div>
-                    <div class="industry-card animate-in">
-                        <div class="industry-icon">&#9889;</div>
-                        <h3>Energy</h3>
-                        <p>High-performance systems</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="cta-section">
-            <div class="cta-content">
-                <h2>Ready to Get Started?</h2>
-                <p>Contact us today to discover how Metal3d Printing can help you succeed.</p>
-                <a href="contact.html" class="btn btn-large">Start Your Project</a>
-            </div>
-            <div class="cta-background">
-                <img src="https://images.unsplash.com/photo-1626885930974-4b69aa21bbf9?w=600&q=80" alt="Metal3d Printing" loading="lazy">
-            </div>
-        </section>
-    </main>
-
-    <footer class="site-footer">
-        <div class="footer-container">
-            <div class="footer-main">
-                <div class="footer-brand">
-                    <div class="footer-logo">Metal3d Printing</div>
-                    <p>Precision Metal Parts, Printed to Perfection</p>
-                </div>
-                <div class="footer-links">
-                    <div class="footer-column">
-                        <h4>Company</h4>
-                        <ul>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Services</h4>
-                        <ul>
-                            <li><a href="services.html">Service 1</a></li>
-                            <li><a href="services.html">Service 2</a></li>
-                            <li><a href="services.html">Service 3</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Contact</h4>
-                        <ul>
-                            <li>info@metal3dprinting.com</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Metal3d Printing. All rights reserved.</p>
-            </div>
+      <h3 style="margin-top: 2rem;">Material Selection Guide</h3>
+      <div class="grid grid-2">
+        <div>
+          <h4>Choose Titanium When:</h4>
+          <ul class="feature-list">
+            <li>Strength-to-weight ratio critical (aerospace, medical)</li>
+            <li>Biocompatibility required (implants, surgical tools)</li>
+            <li>Heat resistance needed (>500°C operation)</li>
+            <li>Corrosion resistance important (marine, offshore)</li>
+            <li>Fatigue performance critical (cyclic loading)</li>
+          </ul>
         </div>
-    </footer>
 
-    <script src="js/main.js"></script>
+        <div>
+          <h4>Choose Steel When:</h4>
+          <ul class="feature-list">
+            <li>Hardness and wear resistance required (tooling, bearings)</li>
+            <li>Cost optimization important (lower material cost than Ti)</li>
+            <li>Industrial/manufacturing environment (316L for chemicals)</li>
+            <li>Precise hardness specification (50-52 HRC achievable)</li>
+            <li>Dimensional stability critical (lower expansion than Al)</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Choose Aluminum When:</h4>
+          <ul class="feature-list">
+            <li>Weight reduction paramount (aerospace, automotive)</li>
+            <li>Thermal conductivity required (heat sinks, electronics)</li>
+            <li>Cost-effective lightweight solution</li>
+            <li>Rapid prototyping, non-critical strength</li>
+            <li>RF/EMI shielding components</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Choose Specialty Alloys When:</h4>
+          <ul class="feature-list">
+            <li>Extreme temperatures (Inconel for turbines)</li>
+            <li>Wear/friction surfaces (Cobalt Chrome for dental)</li>
+            <li>Corrosion in aggressive media (316L in sulfuric acid)</li>
+            <li>Luxury/premium applications (precious metals)</li>
+            <li>Ultra-precision requirements (medical grade)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Industries -->
+  <section id="industries" style="background: #f8f9fa;">
+    <div class="container">
+      <h2>Industry Applications</h2>
+
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="card-icon" style="background: #D5F4E6; color: #0E6251;">✈️</div>
+          <h3>Aerospace & Defense</h3>
+          <p><strong>Market Impact:</strong> GE consolidated 20-part fuel nozzles into 1, saved 25% weight.</p>
+          <ul class="feature-list">
+            <li>Engine components and fuel nozzles</li>
+            <li>Landing gear and structural parts</li>
+            <li>Satellite and spacecraft components</li>
+            <li>Weight reduction: 40-50% vs traditional</li>
+            <li>Design freedom enables innovation</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-icon" style="background: #FCE4EC; color: #0B3D2C;">🏥</div>
+          <h3>Medical Devices</h3>
+          <p><strong>Market Projection:</strong> $9.5B predicted by 2027, 77% expect maximum medical impact.</p>
+          <ul class="feature-list">
+            <li>Patient-specific implants (hip, knee, spine)</li>
+            <li>Surgical instruments and guides</li>
+            <li>Dental implants and prosthetics</li>
+            <li>Custom orthopedic components</li>
+            <li>100% biocompatibility verified</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-icon" style="background: #F1F8E9; color: #1B5E20;">🚗</div>
+          <h3>Automotive</h3>
+          <p><strong>Market Leader:</strong> BMW produces 50,000+ components annually. GM Cadillac uses 115 DMLS parts per vehicle.</p>
+          <ul class="feature-list">
+            <li>Engine components and manifolds</li>
+            <li>Weight optimization for efficiency</li>
+            <li>Complex cooling channels</li>
+            <li>Customization and variants</li>
+            <li>Supply chain simplification</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-icon" style="background: #E3F2FD; color: #01579B;">🔧</div>
+          <h3>Industrial Tooling</h3>
+          <p><strong>Efficiency Gain:</strong> 70% increased production volume reported, 82% cost savings achieved.</p>
+          <ul class="feature-list">
+            <li>Injection mold inserts with integrated cooling</li>
+            <li>40% faster cycle times through optimized channels</li>
+            <li>Die inserts for metal stamping and forming</li>
+            <li>Zero tooling cost for design changes</li>
+            <li>Rapid mold iteration and optimization</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-icon" style="background: #FFF3E0; color: #E65100;">⚙️</div>
+          <h3>Industrial Manufacturing</h3>
+          <p><strong>Consolidation Benefit:</strong> Multi-part assemblies reduced to single components with integrated features.</p>
+          <ul class="feature-list">
+            <li>Bearing assemblies and complex mechanical parts</li>
+            <li>Hydraulic and pneumatic components</li>
+            <li>Pump and compressor parts</li>
+            <li>Precision instruments and measurement tools</li>
+            <li>Assembly labor elimination</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-icon" style="background: #F3E5F5; color: #6A1B9A;">✨</div>
+          <h3>Luxury & Jewelry</h3>
+          <p><strong>Design Freedom:</strong> Unlimited artistic expression, impossible geometries now achievable.</p>
+          <ul class="feature-list">
+            <li>Custom jewelry from CAD to wearable</li>
+            <li>Precious metals: gold, silver, platinum</li>
+            <li>Artistic and sculptural designs</li>
+            <li>0.006" minimum features for fine details</li>
+            <li>No tooling required for custom pieces</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DMLS vs Traditional -->
+  <section id="comparison">
+    <div class="container">
+      <h2>DMLS vs Traditional Manufacturing</h2>
+
+      <table class="specs-table">
+        <thead>
+          <tr>
+            <th>Factor</th>
+            <th>DMLS 3D Printing</th>
+            <th>CNC Machining</th>
+            <th>Forging + Machining</th>
+            <th>Casting + Machining</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Design Complexity</strong></td>
+            <td>Unlimited</td>
+            <td>Limited (tool access)</td>
+            <td>Very limited</td>
+            <td>Limited (core pulls)</td>
+          </tr>
+          <tr>
+            <td><strong>Tooling Cost</strong></td>
+            <td>$0</td>
+            <td>$500-$5,000</td>
+            <td>$50,000-500,000</td>
+            <td>$20,000-200,000</td>
+          </tr>
+          <tr>
+            <td><strong>Lead Time</strong></td>
+            <td>3-6 weeks</td>
+            <td>4-8 weeks</td>
+            <td>12-24 weeks</td>
+            <td>8-16 weeks</td>
+          </tr>
+          <tr>
+            <td><strong>Material Waste</strong></td>
+            <td>5-10%</td>
+            <td>60-70%</td>
+            <td>40-60%</td>
+            <td>30-40%</td>
+          </tr>
+          <tr>
+            <td><strong>Cost Per Part (1)</strong></td>
+            <td>$500-$10,000</td>
+            <td>$200-$5,000</td>
+            <td>$2,000-$50,000+</td>
+            <td>$800-$20,000</td>
+          </tr>
+          <tr>
+            <td><strong>Cost Per Part (100+)</strong></td>
+            <td>$300-$8,000</td>
+            <td>$100-$2,000</td>
+            <td>$500-$15,000</td>
+            <td>$200-$5,000</td>
+          </tr>
+          <tr>
+            <td><strong>Internal Features</strong></td>
+            <td>Unlimited</td>
+            <td>Limited</td>
+            <td>Impossible</td>
+            <td>Possible (core)</td>
+          </tr>
+          <tr>
+            <td><strong>Design Changes</strong></td>
+            <td>Free (no tooling)</td>
+            <td>$500-$5,000 each</td>
+            <td>$10,000-100,000+ each</td>
+            <td>$5,000-50,000 each</td>
+          </tr>
+          <tr>
+            <td><strong>Best For</strong></td>
+            <td>Prototypes, complex geometries, low-mid volume</td>
+            <td>Standard parts, high precision</td>
+            <td>High-volume production, maximum strength</td>
+            <td>High-volume, complex cavities</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 style="margin-top: 2rem;">When to Choose DMLS</h3>
+      <div class="grid grid-2">
+        <div>
+          <h4>✓ DMLS is Superior When:</h4>
+          <ul class="feature-list">
+            <li>Design complexity benefits from 3D freedom</li>
+            <li>Internal cooling channels or passages needed</li>
+            <li>Multi-part consolidation possible</li>
+            <li>Rapid prototyping and iteration required</li>
+            <li>Production volume 1-1000 units</li>
+            <li>Design changes expected during development</li>
+            <li>Custom, one-off, or specialty parts</li>
+            <li>Weight reduction critical (lattice structures)</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>✗ DMLS May Not Be Best For:</h4>
+          <ul class="feature-list">
+            <li>High-volume commodity production (10,000+/month)</li>
+            <li>Simple geometries (CNC more cost-effective)</li>
+            <li>Maximum strength required (forging superior)</li>
+            <li>Very large parts (>31.5" × 15.7" × 19.7")</li>
+            <li>Surface finish <Ra 0.4 µm (finishing costs)</li>
+            <li>Materials not available as powder</li>
+            <li>Extreme operating temperatures (>600°C)</li>
+            <li>Production where density <99% insufficient</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Benefits -->
+  <section style="background: #f8f9fa;">
+    <div class="container">
+      <h2>Metal 3D Printing Benefits</h2>
+
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>Cost Advantages</h3>
+          <ul class="feature-list">
+            <li>50-80% weight reduction = less material</li>
+            <li>Zero tooling costs = fast iteration</li>
+            <li>Material consolidation = assembly savings</li>
+            <li>Reduced scrap: 5-10% vs 60-70%</li>
+            <li>Supply chain simplification</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Time Advantages</h3>
+          <ul class="feature-list">
+            <li>3-6 week lead time vs 12-24 weeks traditional</li>
+            <li>Rapid design iteration (no tooling delay)</li>
+            <li>Faster time-to-market for innovation</li>
+            <li>Responsive to demand changes</li>
+            <li>Quick prototyping for validation</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Design Advantages</h3>
+          <ul class="feature-list">
+            <li>Unlimited geometric complexity</li>
+            <li>Internal cooling channels and passages</li>
+            <li>Lightweight lattice structures</li>
+            <li>Multi-part consolidation into single component</li>
+            <li>Topology optimization for load paths</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- News -->
+  <section>
+    <div class="container">
+      <h2>Latest Metal 3D Printing News</h2>
+      <div id="news-feed" class="news-feed"></div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="background: linear-gradient(135deg, #0E6251, #16A085); color: white; text-align: center;">
+    <div class="container">
+      <h2 style="color: white;">Ready to Explore Metal 3D Printing?</h2>
+      <p style="color: rgba(255,255,255,0.9); font-size: 1.1rem; margin-bottom: 2rem;">Get a free capabilities assessment for your project</p>
+      <a href="metal3dprint-contact.html" class="btn" style="background: white; color: #16A085; font-weight: 700; padding: 1rem 2rem; font-size: 1.1rem;">Request Consultation</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>Metal3D Manufacturing</h4>
+        <p>Advanced metal 3D printing for aerospace, medical, industrial, and custom applications.</p>
+        <div class="social-links">
+          <a href="#" title="LinkedIn">in</a>
+          <a href="#" title="Twitter">𝕏</a>
+          <a href="#" title="Email">✉</a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <a href="metal3dprint-index.html">Home</a>
+        <a href="metal3dprint-about.html">About</a>
+        <a href="metal3dprint-services.html">Services</a>
+        <a href="metal3dprint-contact.html">Contact</a>
+      </div>
+
+      <div class="footer-section">
+        <h4>Materials</h4>
+        <a href="#materials">Titanium</a>
+        <a href="#materials">Steel</a>
+        <a href="#materials">Aluminum</a>
+        <a href="#materials">Specialty Alloys</a>
+      </div>
+
+      <div class="footer-section">
+        <h4>Industries</h4>
+        <a href="#industries">Aerospace</a>
+        <a href="#industries">Medical</a>
+        <a href="#industries">Automotive</a>
+        <a href="#industries">Industrial</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Metal3D Manufacturing. All rights reserved. | Privacy Policy | Terms of Service</p>
+    </div>
+  </footer>
+
+  <script src="shared-metal3d-scripts.js"></script>
 </body>
 </html>
