@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://metal3dprinting.co/sitemap.xml

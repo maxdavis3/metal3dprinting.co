@@ -1,0 +1,64 @@
+baseURL = "https://metal3dprinting.co/"
+languageCode = "en-us"
+title = "Metal 3D Printing"
+theme = "printwire-theme"
+
+[params]
+  siteName       = "Metal 3D Printing"
+  tagline        = "Metal 3D Printing — DMLS and SLM metal 3D printing across 6 aerospace-grade alloys. Ti6Al4V to Inconel 718. Free DFM analysis and first article in 48 hours."
+  primaryColor   = "#60a5fa"
+  bgColor        = "#060a12"
+  fontPrimary    = "Orbitron"
+  fontSecondary  = "Space Grotesk"
+  fontURL        = "https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+  ogImage        = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1200&q=80"
+  favicon        = "⚙️"
+  pubmedQuery    = "metal+3D+printing+DMLS+additive+manufacturing+aerospace"
+  contactEmail   = "maxdavisgroup@gmail.com"
+  web3formsKey   = "6f33053b-6d08-414b-9615-665f88c98da8"
+  xometryId      = "XOMETRY_AFFILIATE_ID"
+  domain         = "metal3dprinting.co"
+  heroImage      = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1200&q=80"
+
+[[params.stats]]
+  number = "99.5%"
+  label  = "Part Density"
+
+[[params.stats]]
+  number = "6"
+  label  = "Certified Alloys"
+
+[[params.stats]]
+  number = "48hr"
+  label  = "First Article"
+
+[[params.stats]]
+  number = "±0.003\""
+  label  = "Tolerance"
+
+[[params.services]]
+  title = "DMLS Metal Parts"
+  icon  = "◎"
+  image = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=600&q=80"
+  short = "Production DMLS in Ti6Al4V, 316L, 17-4 PH, AlSi10Mg, Inconel 718, CoCrMo. 99.5% density, ±0.003\" tolerance."
+
+[[params.services]]
+  title = "Design for AM"
+  icon  = "✦"
+  image = "https://images.unsplash.com/photo-1564564733489-4f90308b0f7f?w=600&q=80"
+  short = "Topology optimization, lattice design, support strategy, and DFM consultation for DMLS production."
+
+[[params.services]]
+  title = "Post-Processing"
+  icon  = "⚙"
+  image = "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&q=80"
+  short = "Stress relief, HIP, CNC machining to ±0.001\", bead blast, electropolish, anodizing."
+
+[[params.services]]
+  title = "Rapid Prototyping"
+  icon  = "◈"
+  image = "https://images.unsplash.com/photo-1504473089979-b1c4993a9653?w=600&q=80"
+  short = "48-hour first article in production alloys. DMLS metal prototypes with full mechanical properties."
+
+[markup.goldmark.renderer]
+  unsafe = true

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metal 3D Printing</title>
+    <link>https://metal3dprinting.co/</link>
+    <description>Recent content on Metal 3D Printing</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://metal3dprinting.co/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DMLS Alloy Selection: Matching Material to Application</title>
+      <link>https://metal3dprinting.co/articles/guide/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://metal3dprinting.co/articles/guide/</guid>
+      <description>The six DMLS alloys cover 95% of metal additive manufacturing applications. Choosing correctly at the design stage prevents expensive material substitution after build.</description>
+    </item>
+    <item>
+      <title>About Metal 3D Printing</title>
+      <link>https://metal3dprinting.co/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://metal3dprinting.co/about/</guid>
+      <description>&lt;h2 id=&#34;metal-additive-manufacturing--no-compromise&#34;&gt;Metal Additive Manufacturing — No Compromise&lt;/h2&gt;&#xA;&lt;p&gt;Metal 3D Printing covers Direct Metal Laser Sintering and selective laser melting across six&#xA;aerospace-grade alloys. Published by Ben Stagl (SAIC professor, 20-year fabrication&#xA;veteran) and Max Davis (MAXCNC, digital fabrication specialist) — practitioners who&#xA;have run production DMLS programs, not observers.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-we-cover&#34;&gt;What We Cover&lt;/h2&gt;&#xA;&lt;p&gt;Process parameters, alloy metallurgy, design rules (wall thickness, overhang angles,&#xA;support strategy), post-processing (stress relief, HIP, CNC hybrid), and supplier&#xA;qualification. The depth that procurement engineers and materials scientists actually need.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Advertise on Metal 3D Printing</title>
+      <link>https://metal3dprinting.co/advertise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://metal3dprinting.co/advertise/</guid>
+      <description>&lt;h2 id=&#34;advertise-on-metal-3d-printing&#34;&gt;Advertise on Metal 3D Printing&lt;/h2&gt;&#xA;&lt;p&gt;Metal 3D Printing reaches engineers and procurement managers actively sourcing metal additive&#xA;manufacturing services, materials, and equipment.&lt;/p&gt;&#xA;&lt;h3 id=&#34;advertising-packages&#34;&gt;Advertising Packages&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Package&lt;/th&gt;&#xA;          &lt;th&gt;Rate&lt;/th&gt;&#xA;          &lt;th&gt;Placement&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Banner Ad (728×90)&lt;/td&gt;&#xA;          &lt;td&gt;$500/month&lt;/td&gt;&#xA;          &lt;td&gt;Homepage&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Sponsored Content&lt;/td&gt;&#xA;          &lt;td&gt;$1,200/month&lt;/td&gt;&#xA;          &lt;td&gt;Article feature&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Network Package&lt;/td&gt;&#xA;          &lt;td&gt;$3,500/month&lt;/td&gt;&#xA;          &lt;td&gt;All PrintWire metal sites&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;strong&gt;Contact:&lt;/strong&gt; &lt;a href=&#34;mailto:maxdavisgroup@gmail.com&#34;&gt;maxdavisgroup@gmail.com&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://metal3dprinting.co/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://metal3dprinting.co/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Services</title>
+      <link>https://metal3dprinting.co/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://metal3dprinting.co/services/</guid>
+      <description>&lt;h2 id=&#34;dmls-metal-parts&#34;&gt;DMLS Metal Parts&lt;/h2&gt;&#xA;&lt;p&gt;Direct Metal Laser Sintering produces fully dense metal parts (99.5% theoretical&#xA;density) from CAD files without tooling in 5–10 business days. Six certified alloys:&#xA;Ti6Al4V (993–1,055 MPa), 17-4 PH (1,365–1,372 MPa), 316L (565–586 MPa),&#xA;AlSi10Mg (268–345 MPa), Inconel 718 (958 MPa, stable to 700°C), CoCrMo&#xA;(1,213–1,255 MPa). Build envelopes to 31.5&amp;quot; × 15.7&amp;quot; × 19.7&amp;quot;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;design-for-am&#34;&gt;Design for AM&lt;/h2&gt;&#xA;&lt;p&gt;DMLS enables topology-optimized geometry that machining cannot produce. Our DfAM&#xA;service covers mass reduction (30–70% typical), internal channel design for conformal&#xA;cooling, lattice structures (gyroid, BCC, TPMS) for lightweight applications, and&#xA;support strategy to minimize post-processing cost. Free DFM analysis with every quote.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
